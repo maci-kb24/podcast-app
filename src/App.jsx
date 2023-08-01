@@ -1,9 +1,12 @@
+import About from "./components/About";
+import Layout from "./components/Layout";
+// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 function App() {
   return (
-    <>
-      <h1>Hello</h1>
-      <p>hello again</p>
-    </>
+    <Layout>
+      <About />
+    </Layout>
   );
 }
 
