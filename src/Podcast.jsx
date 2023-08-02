@@ -1,13 +1,13 @@
-import About from "./components/About";
 import Layout from "./components/Layout";
+import Home from "./pages/home";
 // import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-function App() {
+function Podcast() {
   return (
     <Layout>
-      <About />
+      <Home />
     </Layout>
   );
 }
 
-export default App;
+export default Podcast;

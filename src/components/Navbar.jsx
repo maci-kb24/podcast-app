@@ -1,7 +1,11 @@
+import Logo from "../assets/images/logo.png";
+
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <a className="logo"></a>
+      <a className="logo">
+        <img src={Logo} style={{ width: "74px", height: "74px" }} />
+      </a>
       <ul>
         <li>Home</li>
         <li>About</li>
@@ -12,9 +16,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-<nav className="navbar">
-  <a className="logo"></a>
-  <ul>
-    <li></li>
-  </ul>
-</nav>;
