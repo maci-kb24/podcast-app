@@ -1,21 +1,19 @@
 import Layout from "../layout/Layout";
+import PropTypes from "prop-types";
 import Home from "../routes/home";
-import { createBrowserRouter } from "react-router-dom";
-import { RouterProvider } from "react-router";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Layout />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-    ],
-  },
-]);
+const Podcast = () => {
+  return (
+    <>
+      <Layout>
+        <Home />
+      </Layout>
+    </>
+  );
+};
 
-const Podcast = () => <RouterProvider router={router} />;
+Podcast.propTypes = {
+  children: PropTypes.node.isRequired, // Ensure children is a valid React node
+};
 
 export default Podcast;
