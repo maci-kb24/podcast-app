@@ -1,0 +1,15 @@
+.container {
+  width: calc(100% - 280px);
+  margin: 0 auto;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+}
+.nav-item {
+  list-style-type: none;
+}
