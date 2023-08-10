@@ -71,6 +71,30 @@ const Hero = ({ heading, subheading }) => {
           );
         })}
       </div>
+      <div className="hero-logos">
+        <div className="container">
+          <hr />
+          <div className="logos">
+            <div>
+              <h3>Supported by:</h3>
+            </div>
+            <div>
+              <ul>
+                <li>
+                  <img src={Spotify} />
+                </li>
+                <li>
+                  <img src={Google} />
+                </li>
+                <li>
+                  <img src={Youtube} />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
     </div>
   );
 };

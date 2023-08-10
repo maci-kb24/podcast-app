@@ -1,7 +1,3 @@
-.container {
-  width: calc(100% - 280px);
-  margin: 0 auto;
-}
 .navbar {
   display: flex;
   align-items: center;

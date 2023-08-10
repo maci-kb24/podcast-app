@@ -68,7 +68,24 @@ body {
   position: relative;
   background-color: var(--champagne);
 }
-
+.container {
+  width: calc(100% - 280px);
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  place-items: center;
+  gap: 1rem;
+}
+@media (min-width: 50em) {
+  .grid {
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+}
+h1 {
+  font-size: var(--fs-59);
+}
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;

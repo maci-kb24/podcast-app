@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import Podcast from "./root/Podcast";
+import App from "./root/App";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Podcast />
+    <App />
   </React.StrictMode>
 );
