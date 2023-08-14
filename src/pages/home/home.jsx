@@ -1,6 +1,5 @@
 import styles from "./home.module.css";
-import HomeHero from "../components/Home/HomeHero";
-import Testimonial from "../components/Home/Testimonial";
+import { HomeHero, Testimonial } from "../../components";
 
 const Home = () => {
   const heading = "Your Daily Podcast";

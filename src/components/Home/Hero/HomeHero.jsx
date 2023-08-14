@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import Button from "../Button/Button";
+import Button from "../../Button/Button";
 import styles from "./hero.module.css";
 import SelfImage from "../../assets/images/cover.png";
 import Perplexed from "../../assets/images/cover1.png";
@@ -8,7 +8,7 @@ import Youtube from "../../assets/images/icons/youtube.png";
 import Spotify from "../../assets/images/icons/spotify.png";
 import Google from "../../assets/images/icons/google.png";
 
-const Hero = ({ heading, subheading }) => {
+const HomeHero = ({ heading, subheading }) => {
   const podcastList = [
     {
       name: "Self-confidence",
@@ -99,9 +99,9 @@ const Hero = ({ heading, subheading }) => {
   );
 };
 
-Hero.propTypes = {
+HomeHero.propTypes = {
   heading: PropTypes.node.isRequired,
   subheading: PropTypes.node.isRequired, // Ensure children is a valid React node
 };
 
-export default Hero;
+export default HomeHero;

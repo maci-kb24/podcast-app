@@ -1,7 +1,7 @@
 import Button from "../Button/Button";
 import PropTypes from "prop-types";
 
-const AboutHero = ({ heading, subheading }) => {
+const Hero = ({ heading, subheading }) => {
   return (
     <section className="about-hero">
       <h1>{heading}</h1>
@@ -14,8 +14,8 @@ const AboutHero = ({ heading, subheading }) => {
   );
 };
 
-AboutHero.propTypes = {
+Hero.propTypes = {
   heading: PropTypes.node.isRequired,
   subheading: PropTypes.node.isRequired, // Ensure children is a valid React node
 };
-export default AboutHero;
+export default Hero;

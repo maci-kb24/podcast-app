@@ -1,4 +1,4 @@
-import AboutHero from "../components/About/AboutHero";
+import { AboutHero } from "../../components";
 
 const About = () => {
   const heading = "About Pod of Cast";

@@ -1,10 +1,9 @@
 import Layout from "../layout/Layout";
-import Home from "../routes/home";
-import About from "../routes/about";
-import Contact from "../routes/contact";
+import Home from "../pages/home/home";
+import About from "../pages/about/about";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-const Podcast = () => {
+const App = () => {
   return (
     <>
       <BrowserRouter>
@@ -12,7 +11,6 @@ const Podcast = () => {
           <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
           </Routes>
         </Layout>
       </BrowserRouter>
@@ -20,4 +18,4 @@ const Podcast = () => {
   );
 };
 
-export default Podcast;
+export default App;
