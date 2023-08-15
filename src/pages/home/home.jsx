@@ -1,5 +1,11 @@
 import styles from "./home.module.css";
-import { HomeHero, Testimonial } from "../../components";
+import {
+  HomeHero,
+  Membership,
+  RecentEpisodes,
+  HomeSponsor,
+  Testimonial,
+} from "../../components";
 
 const Home = () => {
   const heading = "Your Daily Podcast";
@@ -10,6 +16,9 @@ const Home = () => {
     <div className={styles.home}>
       <HomeHero heading={heading} subheading={subheading} />
       <Testimonial />
+      <Membership />
+      <RecentEpisodes />
+      <HomeSponsor />
     </div>
   );
 };

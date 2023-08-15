@@ -74,7 +74,6 @@ body {
 }
 .grid {
   display: grid;
-  place-items: center;
   gap: 1rem;
 }
 @media (min-width: 50em) {

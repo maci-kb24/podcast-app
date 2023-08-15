@@ -1,12 +1,12 @@
 import PropTypes from "prop-types";
 import Button from "../../Button/Button";
 import styles from "./hero.module.css";
-import SelfImage from "../../assets/images/cover.png";
-import Perplexed from "../../assets/images/cover1.png";
-import WomensRights from "../../assets/images/cover2.png";
-import Youtube from "../../assets/images/icons/youtube.png";
-import Spotify from "../../assets/images/icons/spotify.png";
-import Google from "../../assets/images/icons/google.png";
+import SelfImage from "../../../assets/images/cover.png";
+import Perplexed from "../../../assets/images/cover1.png";
+import WomensRights from "../../../assets/images/cover2.png";
+import Youtube from "../../../assets/images/icons/youtube.png";
+import Spotify from "../../../assets/images/icons/spotify.png";
+import Google from "../../../assets/images/icons/google.png";
 
 const HomeHero = ({ heading, subheading }) => {
   const podcastList = [
@@ -43,7 +43,7 @@ const HomeHero = ({ heading, subheading }) => {
       <div className="hero-content">
         <h1>{heading}</h1>
         <p>{subheading}</p>
-        <Button>Subscribe</Button>
+        <Button />
       </div>
       <div className={styles["podcast-list"]}>
         {podcastList.map((podcast, index) => {
