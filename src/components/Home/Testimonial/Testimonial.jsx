@@ -19,7 +19,6 @@ const Testimonial = () => {
                 <br /> by every minute of it.
               </h1>
             </div>
-
             <div className="grid testimonial-content">
               <div>
                 <img src="https://placehold.co/150" alt="illustation" />
