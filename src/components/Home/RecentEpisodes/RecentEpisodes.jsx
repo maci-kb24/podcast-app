@@ -46,6 +46,7 @@ const RecentEpisodes = () => {
     <section>
       <div className="container">
         <h3>Recent Episodes</h3>
+        <p>Available on your favorite platform</p>
         <div className="episodes-list">
           {episodes.map((episode) => (
             <EpisodeCard

@@ -6,7 +6,7 @@ import HomeHero from "./Home/Hero/HomeHero";
 import Testimonial from "./Home/Testimonial/Testimonial";
 import Membership from "./Home/Membership/Membership";
 import RecentEpisodes from "./Home/RecentEpisodes/RecentEpisodes";
-import HomeSponsor from "./Home/HomeSponsor";
+import HomeSponsor from "./Home/Sponsor/HomeSponsor";
 
 export {
   AboutHero,
