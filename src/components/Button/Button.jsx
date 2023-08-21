@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-// import styles from "./button.module.css";
 
 const Button = ({
   margin,
@@ -28,7 +27,7 @@ Button.propTypes = {
   children: PropTypes.node.isRequired,
   bgColor: PropTypes.string,
   color: PropTypes.string,
-  padding: PropTypes.number,
+  padding: PropTypes.string,
   borderRadius: PropTypes.string,
   border: PropTypes.string,
   boxShadow: PropTypes.string,

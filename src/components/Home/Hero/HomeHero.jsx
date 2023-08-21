@@ -20,8 +20,26 @@ const HomeHero = () => {
       },
     },
     {
+      name: "Self-confidence",
+      image: SelfImage,
+      icons: {
+        youtube: Youtube,
+        spotify: Spotify,
+        google: Google,
+      },
+    },
+    {
       name: "Perplexed Mind ",
       image: Perplexed,
+      icons: {
+        youtube: Youtube,
+        spotify: Spotify,
+        google: Google,
+      },
+    },
+    {
+      name: "Women's Rights ",
+      image: WomensRights,
       icons: {
         youtube: Youtube,
         spotify: Spotify,
@@ -58,7 +76,7 @@ const HomeHero = () => {
                 backgroundSize: "cover",
               }}
             >
-              <ul>
+              <ul className={styles["podcast-icons"]}>
                 <li>
                   <img src={podcast.icons.google} alt="Google" />
                 </li>

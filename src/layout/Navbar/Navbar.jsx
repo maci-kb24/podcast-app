@@ -7,11 +7,10 @@ const Navbar = () => {
   return (
     <div className="container">
       <nav className={styles.navbar}>
-        <a className="logo">
-          <Link to="/">
-            <img src={Logo} style={{ maxWidth: "74px", height: "74px" }} />
-          </Link>
-        </a>
+        <Link className="logo" to="/">
+          <img src={Logo} style={{ maxWidth: "74px", height: "74px" }} />
+        </Link>
+
         <ul className={styles["nav-list"]}>
           <li className={styles["nav-item"]}>
             <Link to="/">Episodes</Link>

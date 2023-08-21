@@ -67,6 +67,7 @@ body {
   font-family: "Montserrat", sans-serif;
   position: relative;
   background-color: var(--champagne);
+  overflow-x: hidden;
 }
 .container {
   width: calc(100% - 280px);

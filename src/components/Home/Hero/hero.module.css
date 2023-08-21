@@ -12,4 +12,22 @@
 }
 .podcast-list {
   display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+}
+.podcast-list div {
+  flex: 0.3;
+  flex-shrink: 0;
+  height: 373px;
+}
+.podcast-list div:first-child {
+  position: absolute;
+  left: -6%;
+}
+.podcast-list div:last-child {
+  position: absolute;
+  right: -6%;
+}
+.podcast-icons li {
+  list-style-type: none;
 }
