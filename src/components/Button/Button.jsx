@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 // import styles from "./button.module.css";
 
 const Button = ({
+  margin,
   boxShadow,
   borderRadius,
   border,
@@ -17,6 +18,7 @@ const Button = ({
     borderRadius: borderRadius || "8px",
     border: border || "none",
     boxShadow: boxShadow || "6px 6px 0px 0px rgba(0, 0, 0, 0.25)",
+    margin: margin || "0",
   };
 
   return <button style={buttonStyles}>{children}</button>;
@@ -30,6 +32,7 @@ Button.propTypes = {
   borderRadius: PropTypes.string,
   border: PropTypes.string,
   boxShadow: PropTypes.string,
+  margin: PropTypes.string,
 };
 
 Button.defaultProps = {

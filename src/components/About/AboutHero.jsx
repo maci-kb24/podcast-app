@@ -1,11 +1,17 @@
 import Button from "../Button/Button";
 import PropTypes from "prop-types";
 
-const Hero = ({ heading, subheading }) => {
+const Hero = () => {
   return (
     <section className="about-hero">
-      <h1>{heading}</h1>
-      <p>{subheading}</p>
+      <h1>
+        About <span>Pod of Cast</span>
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam–quis.
+      </p>
       <Button bgColor="white" color="black" border="2px solid black">
         Recent Episodes
       </Button>

@@ -8,7 +8,7 @@ import Youtube from "../../../assets/images/icons/youtube.png";
 import Spotify from "../../../assets/images/icons/spotify.png";
 import Google from "../../../assets/images/icons/google.png";
 
-const HomeHero = ({ heading, subheading }) => {
+const HomeHero = () => {
   const podcastList = [
     {
       name: "Self-confidence",
@@ -40,10 +40,13 @@ const HomeHero = ({ heading, subheading }) => {
   ];
   return (
     <div className="hero">
-      <div className="hero-content">
-        <h1>{heading}</h1>
-        <p>{subheading}</p>
-        <Button />
+      <div className={styles["hero-content"]}>
+        <h1>
+          Your Daily <br />
+          <span style={{ color: "#cd4631" }}>Podcast</span>
+        </h1>
+        <p>We cover all kinds of categories and a weekly special guest.</p>
+        <Button margin="40px 0px 0px 0px" />
       </div>
       <div className={styles["podcast-list"]}>
         {podcastList.map((podcast, index) => {

@@ -8,14 +8,19 @@ const Navbar = () => {
     <div className="container">
       <nav className={styles.navbar}>
         <a className="logo">
-          <img src={Logo} style={{ maxWidth: "74px", height: "74px" }} />
+          <Link to="/">
+            <img src={Logo} style={{ maxWidth: "74px", height: "74px" }} />
+          </Link>
         </a>
         <ul className={styles["nav-list"]}>
           <li className={styles["nav-item"]}>
-            <Link to="/">Home</Link>
+            <Link to="/">Episodes</Link>
           </li>
-          <li className={styles["nav-list"]}>
+          <li className={styles["nav-item"]}>
             <Link to="/about">About</Link>
+          </li>
+          <li className={styles["nav-item"]}>
+            <Link to="#">More</Link>
           </li>
         </ul>
         <div className="nav-buttons">
@@ -25,10 +30,15 @@ const Navbar = () => {
             borderRadius="8px"
             border="2px solid black"
             boxShadow="none"
+            padding="8px 19px"
           >
             Recent Episodes
           </Button>
-          <Button border="2px solid black" />
+          <Button
+            border="2px solid black"
+            padding="8px 19px"
+            margin="0px 0px 0px 44px"
+          />
         </div>
       </nav>
     </div>

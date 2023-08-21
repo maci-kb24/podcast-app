@@ -1,0 +1,23 @@
+.footer {
+  background-color: white;
+}
+.footer .footer-top {
+  text-align: center;
+  padding: 140px 0px;
+  background-color: var(--alice-blue);
+  position: relative;
+}
+.footer .footer-nav {
+  display: flex;
+  justify-content: space-between;
+}
+/* .footer .footer-nav > div {
+  flex: 1;
+} */
+.footer-bottom {
+  background-color: white;
+  padding: 140px 0px 80px 0px;
+}
+.footer-copyright {
+  margin-top: 157px;
+}

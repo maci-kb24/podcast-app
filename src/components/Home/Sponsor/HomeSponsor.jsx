@@ -53,9 +53,25 @@ const HomeSponsor = () => {
                 backgroundColor: "#f7ede8",
               }}
             >
-              <div>
+              <div
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                }}
+              >
                 <h2>Family</h2>
-                <span>MOST POPULAR</span>
+                <p
+                  style={{
+                    backgroundColor: "red",
+                    color: "white",
+                    fontWeight: "700",
+                    fontSize: "12px",
+                    padding: "6px",
+                    borderRadius: "5px",
+                  }}
+                >
+                  MOST POPULAR
+                </p>
               </div>
               <p>
                 Lorem ipsum dolor sit amet consectet cing elit, sed do eiusmod
@@ -72,7 +88,7 @@ const HomeSponsor = () => {
             <div
               style={{
                 marginTop: "20px",
-                padding: "40px 40px 60px 40px",
+                padding: "40px 40px 47px 40px",
                 border: "1.5px solid #cd4631",
                 backgroundColor: "#f7ede8",
               }}
@@ -112,7 +128,7 @@ const HomeSponsor = () => {
             <div
               style={{
                 marginTop: "20px",
-                padding: "40px 40px 60px 40px",
+                padding: "40px 40px 20px 40px",
                 border: "1px solid black",
               }}
             >

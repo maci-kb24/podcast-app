@@ -1,3 +1,15 @@
+.hero-content {
+  text-align: center;
+}
+.hero-content h1 {
+  padding-top: 68px;
+  letter-spacing: -3.84px;
+  line-height: 120%;
+  font-size: var(--fs-96);
+}
+.hero-content p {
+  padding-top: 40px;
+}
 .podcast-list {
   display: flex;
 }

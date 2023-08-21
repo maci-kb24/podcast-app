@@ -1,11 +1,9 @@
 import { AboutHero, History, Team } from "../../components";
 
 const About = () => {
-  const heading = "About Pod of Cast";
-  const subheading = "";
   return (
     <div className="about">
-      <AboutHero heading={heading} subheading={subheading} />
+      <AboutHero />
       <History />
       <Team />
     </div>
