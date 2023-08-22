@@ -1,4 +1,3 @@
-import styles from "./home.module.css";
 import {
   HomeHero,
   Membership,
@@ -13,7 +12,7 @@ const Home = () => {
     "We cover all kinds of categories and a weekly special guest.";
 
   return (
-    <div className={styles.home}>
+    <div>
       <HomeHero heading={heading} subheading={subheading} />
       <Testimonial />
       <Membership />

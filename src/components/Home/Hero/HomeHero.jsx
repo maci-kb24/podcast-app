@@ -7,6 +7,11 @@ import WomensRights from "../../../assets/images/cover2.png";
 import Youtube from "../../../assets/images/icons/youtube.png";
 import Spotify from "../../../assets/images/icons/spotify.png";
 import Google from "../../../assets/images/icons/google.png";
+import SpotifyPodcast from "../../../assets/images/icons/Spotify.png";
+import GooglePodcast from "../../../assets/images/icons/GooglePodcast.png";
+import YoutubePodcast from "../../../assets/images/icons/Youtube.png";
+import HeroShape from "../../../assets/images/icons/HeroShape Swirl.svg";
+import GroupHero from "../../../assets/images/icons/GroupHero.png";
 
 const HomeHero = () => {
   const podcastList = [
@@ -59,12 +64,20 @@ const HomeHero = () => {
   return (
     <div className="hero">
       <div className={styles["hero-content"]}>
-        <h1>
-          Your Daily <br />
-          <span style={{ color: "#cd4631" }}>Podcast</span>
-        </h1>
-        <p>We cover all kinds of categories and a weekly special guest.</p>
-        <Button margin="40px 0px 0px 0px" />
+        <div>
+          <img src={HeroShape} />
+        </div>
+        <div>
+          <h1>
+            Your Daily <br />
+            <span style={{ color: "#cd4631" }}>Podcast</span>
+          </h1>
+          <p>We cover all kinds of categories and a weekly special guest.</p>
+          <Button margin="40px 0px 0px 0px" />
+        </div>
+        <div>
+          <img src={GroupHero} />
+        </div>
       </div>
       <div className={styles["podcast-list"]}>
         {podcastList.map((podcast, index) => {
@@ -92,23 +105,23 @@ const HomeHero = () => {
           );
         })}
       </div>
-      <div className="hero-logos">
+      <div className={styles["hero-logos"]}>
         <div className="container">
           <hr />
-          <div className="logos">
+          <div className={styles.logos}>
             <div>
               <h3>Supported by:</h3>
             </div>
             <div>
               <ul>
                 <li>
-                  <img src={Spotify} />
+                  <img src={SpotifyPodcast} />
                 </li>
                 <li>
-                  <img src={Google} />
+                  <img src={GooglePodcast} />
                 </li>
                 <li>
-                  <img src={Youtube} />
+                  <img src={YoutubePodcast} />
                 </li>
               </ul>
             </div>

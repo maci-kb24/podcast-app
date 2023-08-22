@@ -1,8 +1,12 @@
 .hero-content {
+  display: flex;
+  align-items: center;
+}
+.hero-content div:nth-child(2) {
+  flex: 1;
   text-align: center;
 }
 .hero-content h1 {
-  padding-top: 68px;
   letter-spacing: -3.84px;
   line-height: 120%;
   font-size: var(--fs-96);
@@ -10,23 +14,52 @@
 .hero-content p {
   padding-top: 40px;
 }
+.hero-logos {
+  padding: 120px 0px 140px 0px;
+  display: flex;
+  align-items: center;
+}
+.hero-logos div ul {
+  display: flex;
+}
+.hero-logos div ul li {
+  list-style-type: none;
+  padding: 20px 65px;
+}
+.logos {
+  display: flex;
+  align-items: center;
+}
+.logos div h3 {
+  font-size: var(--fs-22);
+  font-weight: var(--fw-bold);
+}
 .podcast-list {
   display: flex;
   gap: 0.8rem;
   justify-content: center;
+  padding-top: 120px;
 }
 .podcast-list div {
   flex: 0.3;
   flex-shrink: 0;
   height: 373px;
+  position: relative;
+}
+.podcast-list div > p {
+  position: absolute;
+  bottom: 2%;
+  color: var(--blue);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-36);
 }
 .podcast-list div:first-child {
   position: absolute;
-  left: -6%;
+  left: -1%;
 }
 .podcast-list div:last-child {
   position: absolute;
-  right: -6%;
+  right: -1%;
 }
 .podcast-icons li {
   list-style-type: none;

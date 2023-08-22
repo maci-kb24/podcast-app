@@ -9,8 +9,11 @@ import Scribble from "../../../assets/images/icons/Scribble1.png";
 const Testimonial = () => {
   return (
     <div className="testimonial">
-      <img src={ScribbleRed} />
       <div className="testimonial-top">
+        <img
+          src={ScribbleRed}
+          style={{ transform: "translateY(-70px)", margin: "auto" }}
+        />
         <div className="container">
           <div className="testimonial-top-heading">
             <div>
