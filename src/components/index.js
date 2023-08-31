@@ -1,12 +1,12 @@
-import AboutHero from "./About/AboutHero";
-import History from "./About/History";
-import Team from "./About/Team";
-import AboutSponsor from "./About/AboutSponsor";
-import HomeHero from "./Home/Hero/HomeHero";
-import Testimonial from "./Home/Testimonial/Testimonial";
-import Membership from "./Home/Membership/Membership";
-import RecentEpisodes from "./Home/RecentEpisodes/RecentEpisodes";
-import HomeSponsor from "./Home/Sponsor/HomeSponsor";
+import AboutHero from "./AboutHero";
+import History from "./History";
+import Team from "./Team";
+import AboutSponsor from "./AboutSponsor";
+import HomeHero from "./Hero/HomeHero";
+import Testimonial from "./Testimonial/Testimonial";
+import Membership from "./Membership/Membership";
+import RecentEpisodes from "./RecentEpisodes/RecentEpisodes";
+import HomeSponsor from "./Sponsor/HomeSponsor";
 
 export {
   AboutHero,

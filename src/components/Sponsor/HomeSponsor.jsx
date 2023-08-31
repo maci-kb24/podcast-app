@@ -1,9 +1,14 @@
-import Button from "../../Button/Button";
+import Button from "../Button/Button";
 import "./homesponsor.css";
+import Scribble2 from "../../assets/images/icons/Scribble2.png";
 
 const HomeSponsor = () => {
   return (
     <section className="sponsor">
+      <img
+        src={Scribble2}
+        style={{ transform: "translateY(-70px)", margin: "auto" }}
+      />
       <div className="container">
         <div>
           <h1>Become our sponsor</h1>

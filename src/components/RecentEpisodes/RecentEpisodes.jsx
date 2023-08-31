@@ -1,7 +1,8 @@
-import EpisodeCard from "./EpisodeCard/EpisodeCard";
-import Cover1 from "../../../assets/images/cover1.png";
+import EpisodeCard from "../EpisodeCard/EpisodeCard";
+import Cover1 from "../../assets/images/cover1.png";
+import Scribble2 from "../../assets/images/icons/Scribble2.png";
 import "./recentepisodes.css";
-import Button from "../../Button/Button";
+import Button from "../Button/Button";
 
 const RecentEpisodes = () => {
   const episodes = [
@@ -43,10 +44,16 @@ const RecentEpisodes = () => {
     },
   ];
   return (
-    <section>
+    <section className="recent-episodes">
+      <img
+        src={Scribble2}
+        style={{ transform: "translateY(-70px)", margin: "auto" }}
+      />
       <div className="container">
-        <h3>Recent Episodes</h3>
-        <p>Available on your favorite platform</p>
+        <div className="recent-episodes-heading">
+          <h1>Recent Episodes</h1>
+          <p>Available on your favorite platform</p>
+        </div>
         <div className="episodes-list">
           {episodes.map((episode) => (
             <EpisodeCard
@@ -58,7 +65,7 @@ const RecentEpisodes = () => {
             />
           ))}
         </div>
-        <div>
+        <div style={{ marginTop: "100px", textAlign: "center" }}>
           <Button>Browse All Episodes</Button>
         </div>
       </div>

@@ -1,0 +1,16 @@
+.episodes-list {
+  display: grid;
+  gap: 1.5rem;
+}
+@media (min-width: 50em) {
+  .episodes-list {
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+  }
+}
+.recent-episodes {
+  margin-bottom: 140px;
+}
+.recent-episodes-heading {
+  text-align: center;
+  margin-bottom: 100px;
+}

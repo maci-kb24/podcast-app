@@ -1,0 +1,33 @@
+.membership {
+  background-color: white;
+  padding-bottom: 115px;
+}
+.membership-cards {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+@media (min-width: 50em) {
+  .membership-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.membership-card {
+  text-align: center;
+}
+.membership-card img {
+  margin: 0 auto;
+}
+.membership-card h3 {
+  padding-top: 30px;
+}
+.membership-card h3:nth-child(1) {
+  padding-top: 60px;
+}
+.membership-btn {
+  text-align: center;
+  margin-top: 100px;
+}
+.membership-heading {
+  text-align: center;
+  margin-bottom: 100px;
+}

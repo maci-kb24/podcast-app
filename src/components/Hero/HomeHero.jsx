@@ -1,17 +1,17 @@
 import PropTypes from "prop-types";
-import Button from "../../Button/Button";
+import Button from "../Button/Button";
 import styles from "./hero.module.css";
-import SelfImage from "../../../assets/images/cover.png";
-import Perplexed from "../../../assets/images/cover1.png";
-import WomensRights from "../../../assets/images/cover2.png";
-import Youtube from "../../../assets/images/icons/youtube.png";
-import Spotify from "../../../assets/images/icons/spotify.png";
-import Google from "../../../assets/images/icons/google.png";
-import SpotifyPodcast from "../../../assets/images/icons/Spotify.png";
-import GooglePodcast from "../../../assets/images/icons/GooglePodcast.png";
-import YoutubePodcast from "../../../assets/images/icons/Youtube.png";
-import HeroShape from "../../../assets/images/icons/HeroShape Swirl.svg";
-import GroupHero from "../../../assets/images/icons/GroupHero.png";
+import SelfImage from "../../assets/images/cover.png";
+import Perplexed from "../../assets/images/cover1.png";
+import WomensRights from "../../assets/images/cover2.png";
+import Youtube from "../../assets/images/icons/youtube.png";
+import Spotify from "../../assets/images/icons/spotify.png";
+import Google from "../../assets/images/icons/google.png";
+import SpotifyPodcast from "../../assets/images/icons/Spotify.png";
+import GooglePodcast from "../../assets/images/icons/GooglePodcast.png";
+import YoutubePodcast from "../../assets/images/icons/Youtube.png";
+import HeroShape from "../../assets/images/icons/HeroShape Swirl.svg";
+import GroupHero from "../../assets/images/icons/GroupHero.png";
 
 const HomeHero = () => {
   const podcastList = [

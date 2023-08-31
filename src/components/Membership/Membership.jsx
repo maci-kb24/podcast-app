@@ -1,17 +1,20 @@
-import Scribble from "../../../assets/images/icons/Scribble1.png";
-import Vector from "../../../assets/images/icons/Vector1.png";
-import ShiningStars from "../../../assets/images/icons/Shining stars.png";
-import Face from "../../../assets/images/icons/Face 1.png";
-import FaceOne from "../../../assets/images/icons/Face 5.png";
-import Fire from "../../../assets/images/icons/Fire.png";
-import Star from "../../../assets/images/icons/Star.png";
+import Scribble2 from "../../assets/images/icons/Scribble2.png";
+import Vector from "../../assets/images/icons/Vector1.png";
+import ShiningStars from "../../assets/images/icons/Shining stars.png";
+import Face from "../../assets/images/icons/Face 1.png";
+import FaceOne from "../../assets/images/icons/Face 5.png";
+import Fire from "../../assets/images/icons/Fire.png";
+import Star from "../../assets/images/icons/Star.png";
 import "./membership.css";
-import Button from "../../Button/Button";
+import Button from "../Button/Button";
 
 const Membership = () => {
   return (
     <section className="membership">
-      <img src={Scribble} />
+      <img
+        src={Scribble2}
+        style={{ transform: "translateY(-70px)", margin: "auto" }}
+      />
       <div className="container">
         <div className="membership-heading">
           <h1>Membership benefits</h1>

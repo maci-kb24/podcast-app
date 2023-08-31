@@ -61,6 +61,11 @@
   position: absolute;
   right: -1%;
 }
+.podcast-icons {
+  display: flex;
+  justify-content: end;
+  padding-left: 0px;
+}
 .podcast-icons li {
   list-style-type: none;
 }

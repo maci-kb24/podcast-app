@@ -1,8 +1,0 @@
-.membership {
-  background-color: white;
-}
-.membership-cards {
-  display: grid;
-  grid-template-rows: auto auto;
-  grid-template-columns: repeat(3, 1fr);
-}
